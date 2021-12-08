@@ -1,19 +1,7 @@
 <template>
   <div class="bg-gray-300 min-h-screen text-gray-700">
     <div class="container">
-      <div class="flex h-[110px] justify-center items-center">
-        <ul class="flex font-semibold">
-          <li class="mx-5"><a href="">People</a></li>
-          <li class="mx-5"><a href="">Books</a></li>
-          <li class="mx-5"><a href="">Series</a></li>
-        </ul>
-        <div class="font-light text-2xl mx-16 text-gray-900">AudiobookDB</div>
-        <ul class="flex font-semibold">
-          <li class="mx-5"><a href="">API</a></li>
-          <li class="mx-5"><a href="">Contact</a></li>
-          <li class="mx-5"><a href="">More</a></li>
-        </ul>
-      </div>
+      <SiteHeader></SiteHeader>
       <div class="flex h-[500px]">
         <div class="w-1/2 flex flex-col justify-center items-center">
           <div class="w-full max-w-lg">
@@ -31,3 +19,12 @@
     </div>
   </div>
 </template>
+<script>
+import SiteHeader from '../components/SiteHeader'
+export default {
+  name: 'Index',
+  components: {
+    SiteHeader
+  }
+}
+</script>
