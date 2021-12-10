@@ -53,6 +53,9 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   },
+  generate: {
+    routes: ['/book/B002V1OF70', '/book/B082BHJMFF', '/book/1488211361']
+  },
   googleFonts: {
     families: {
       Roboto: [100,300,400,500,600,700],
