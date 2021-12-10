@@ -7,7 +7,7 @@
           <li class="mx-5"><a href="">Books</a></li>
           <li class="mx-5"><a href="">Series</a></li>
         </ul>
-        <div class="w-1/3 justify-center font-light flex text-3xl title text-pink-700">AudiobookDB</div>
+        <div class="w-1/3 justify-center font-light flex text-3xl title">AudiobookDB</div>
         <ul class="w-1/3 justify-center flex font-semibold">
           <li class="mx-5"><a href="">API</a></li>
           <li class="mx-5"><a href="">Contact</a></li>

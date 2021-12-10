@@ -1,7 +1,12 @@
 body {
+  @apply bg-gray-200;
   font-family: 'Roboto', sans-serif;
 }
 .title {
+  @apply text-pink-700;
+  font-family: 'Fugaz One';
+}
+.subtitle {
   font-family: 'Fugaz One';
 }
 .lined {
@@ -14,5 +19,10 @@ body {
     left: 0;
     right: 0;
     border-bottom: 1px solid #00000014;
+  }
+}
+.prose {
+  p {
+    @apply my-4 text-gray-600;
   }
 }
