@@ -4,7 +4,7 @@
     <div class="flex container my-12 overflow-hidden shadow-lg border border-gray-300/75 rounded-xl">
       <div class="flex flex-col flex-none  w-[340px] p-8">
         <img class="my-8 mt-4 drop-shadow-md z-30 rounded-xl" :src="details.image" />
-        <h1 class="title text-lg mb-6">{{ details.title}}</h1>
+        <h1 class="title text-xl mb-6">{{ details.title}}</h1>
         <h2 class="text-gray-400 subtitle mb-2">Author</h2>
         <a
           href=""
