@@ -56,6 +56,7 @@ export default {
   googleFonts: {
     families: {
       Roboto: [100,300,400,500,600,700],
+      'Fugaz One': [400],
     }
   }
 }

@@ -1,13 +1,13 @@
 <template>
-  <div class="bg-gray-300 min-h-screen text-gray-700">
+  <div class="bg-gray-200 min-h-screen text-gray-700">
+    <SiteHeader></SiteHeader>
     <div class="container">
-      <SiteHeader></SiteHeader>
       <div class="flex h-[500px]">
         <div class="w-1/2 flex flex-col justify-center items-center">
           <div class="w-full max-w-lg">
-            <div class="text-4xl leading-tight mb-4 font-light text-yellow-700">The open source audiobook database</div>
+            <div class="text-3xl leading-tight mb-4 font-light title text-pink-700">The open source audiobook database</div>
             <div class="leading-loose">Get all the information you need on your favourite authors, series and audiobook, we even have an API for all you developers out there, so go crazy and make something amazing.</div>
-            <div class="w-full flex relative mt-4"><input class="w-full bg-gray-200 rounded text-lg p-2 h-[55px] pl-8 pr-[110px]" type="text" name="s" value="" placeholder="Search for audiobook" /><button class="bg-green-600 rounded absolute right-1 top-1 bottom-1 text-white w-[110px]">Search</button></div>
+            <div class="w-full flex relative mt-4"><input class="w-full bg-gray-100 rounded text-lg p-2 h-[55px] pl-8 pr-[110px]" type="text" name="s" value="" placeholder="Search for audiobook" /><button class="bg-green-600 rounded absolute right-1 top-1 bottom-1 text-white w-[110px]">Search</button></div>
           </div>
         </div>
         <div class="w-1/2 flex justify-center items-center">

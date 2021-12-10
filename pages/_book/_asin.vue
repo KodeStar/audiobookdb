@@ -1,8 +1,7 @@
 <template>
-  <div class="bg-gray-300 min-h-screen text-gray-700">
-    <div class="container">
-      <SiteHeader></SiteHeader>
-    </div>
+  <div class="bg-gray-200 min-h-screen text-gray-700">
+    <SiteHeader></SiteHeader>
+
     <div class="bg-gray-200">
       <div class="flex container py-12">
         <div class="flex flex-col justify-center items-center">
