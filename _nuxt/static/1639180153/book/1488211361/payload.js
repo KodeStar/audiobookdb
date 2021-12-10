@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/book/1488211361", {data:[{}],fetch:{},mutations:void 0});
